@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "system",
+        "target": "es6",
+        "noImplicitAny": true,
+        "sourceMap": false,
+        "outFile": "js/script.js"
+    },
+    "files": [
+        "src/City.ts",
+        "src/Students.ts",
+        "src/script.ts"
+    ]
+}

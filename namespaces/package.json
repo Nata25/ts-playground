@@ -1,0 +1,13 @@
+{
+  "name": "namespaces",
+  "version": "1.0.0",
+  "description": "TypeScript playground for namespaces",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc",
+    "bundle": "tsc --outfile js/script.js src/City.ts src/Students.ts src/script.ts --target 'es6'",
+    "node": "ts-node"
+  },
+  "author": "natalyas.ivanova@gmail.com",
+  "license": "ISC"
+}
