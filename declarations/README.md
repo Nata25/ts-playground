@@ -1,3 +1,5 @@
+## Declarations in TypeScript
+
 Declarations are used for external modules in JavaScript for the code 
 to be compatible with TypeScript. 
 

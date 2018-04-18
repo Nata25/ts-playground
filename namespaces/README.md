@@ -1,3 +1,5 @@
+## Namespaces in TypeScript 
+
 This is a simply configured environment to practice TypeScript namespaces.
 
 To run the script, use `tsc` from command line, which is equivalent to `npm start`
