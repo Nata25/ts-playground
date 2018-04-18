@@ -1,5 +1,6 @@
 const http = require('http');
-const app = require('./script.js');
+const path = require('path');
+const app = require(path.resolve(__dirname, 'dist', 'script.js'));
 const port = 3000;
 
 const requestHandler = (request, response) => {

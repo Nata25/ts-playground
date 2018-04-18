@@ -4,7 +4,7 @@
   "description": "Here're the examples of exporting an interface, classes (with and without `new` keyword) as well as default and named exports.",
   "main": "index.js",
   "scripts": {
-    "node": "node js/server.js",
+    "node": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
