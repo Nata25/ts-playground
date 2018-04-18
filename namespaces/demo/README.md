@@ -10,4 +10,5 @@ An alternative way is to run all configurations from the command line (the short
 
 See [this issue](https://github.com/Microsoft/TypeScript/issues/6591) for more details.
 
-The result (identical in both cases) is printed to the browser console.
+The result (identical in both cases) is printed to the browser console. Either of 
+the namespaces created in the script can be accessed in the console on `window` object.
