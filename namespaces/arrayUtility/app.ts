@@ -5,4 +5,5 @@ function callArrayUtil(util, array, array2 = []) {
   document.getElementById('output').innerHTML = ArrayUtilities.helper(ArrayUtilities[util](array, array2)).toString();  
 }
 
+document.getElementById('input').innerHTML = ArrayUtilities.helper(array1).toString();
 document.getElementById('output').innerHTML = ArrayUtilities.helper(array1).toString();
