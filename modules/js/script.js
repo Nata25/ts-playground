@@ -1,8 +1,14 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var ArtClass_1 = require("./ArtClass");
 var simpleClass_1 = require("./simpleClass");
-var artPiece = new ArtClass_1.ArtClass('Black Square', 'Malevich', 1915, 'Ukraine');
+var ArtClass_1 = require("./ArtClass");
 var instance = simpleClass_1.default;
-console.log(artPiece);
-console.log(instance.message);
+var message = instance.message;
+exports.message = message;
+var artPiece = new ArtClass_1.ArtClass('Black Square', 'Malevich', 1915, 'Ukraine');
+exports.artPiece = artPiece;
+function toConsole() {
+    console.log(message);
+    console.log(artPiece);
+}
+exports.default = toConsole;
