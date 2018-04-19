@@ -1,5 +1,5 @@
-import ArrayUtilities from './arrayUtils.js';
-import { printArray } from './helper.js';
+import ArrayUtilities from 'arrayUtils';
+import { printArray } from 'helper';
 
 const array1: Array<number> = [1, 2, 3, 4, 5];
 const array2: Array<number> = [6, 7, 8, 9, 10];
