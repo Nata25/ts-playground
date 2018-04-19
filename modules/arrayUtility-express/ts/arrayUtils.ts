@@ -1,20 +1,22 @@
+import * as _ from 'lodash';
+
 class ArrayUtilities {
   reverseArray(array: Array<number>): Array<number> {
-    return array.slice(0).reverse();
+    return _.reverse(array);
   }
 
   lastItemOfArray(array: Array<number>): number {
-    return array.slice(0).pop();
+    return _.last(array);
   }
 
   firstItemOfArray(array: Array<number>): number {
-    return array.slice(0).shift();
+    return _.head(array);
   }
 
   concatenateArrays(
     array1: Array<number>, 
     array2: Array<number>): Array<number> {
-    return array1.concat(array2);
+    return _.concat(array1, array2);
   }
 }
 
